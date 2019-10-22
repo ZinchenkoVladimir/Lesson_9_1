@@ -55,18 +55,6 @@ public class Test_Home_Page {
                 .fill_account_form()
                 .register_button_click()
                 .verify_validation_message();
-
-//        page(Home_Page.class)
-//                .open_Home_Page()
-//                .sign_in_click();
-//
-//        page(Sign_in_Page.class)
-//                .email_address_set()
-//                .create_an_account_button_click();
-//
-//        page(Create_an_account_Page.class)
-//                .fill_account_form()
-//                .register_button_click();
     }
 
     @After
