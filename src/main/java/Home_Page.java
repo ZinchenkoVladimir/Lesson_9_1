@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 class Home_Page {
 
-    private static final String home_page_url ="http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation";
+    private static final String home_page_url ="http://automationpractice.com";
 
     @FindBy(how = How.CLASS_NAME, using = "login")
     private WebElement sign_in_1;
