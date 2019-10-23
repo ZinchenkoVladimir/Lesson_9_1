@@ -9,14 +9,14 @@ import java.util.concurrent.TimeUnit;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class Test_Home_Page {
+public class Test_Account_Creation {
 
     private static WebDriver driver;
     private Home_Page home_page;
     private Sign_in_Page sign_in_page;
     private Create_an_account_Page create_an_account_page;
 
-    public Test_Home_Page(){
+    public Test_Account_Creation(){
     }
 
     @Before
